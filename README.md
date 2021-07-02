@@ -20,12 +20,12 @@ Les données peuvent être étiquetées à la main grâce au script [labelData.p
 
 ## Réseau de neurones convolutif
 
-Une réseau de neurones convolutif (CNN) est utilisé pour classifier les images selon les 3 labels définis. La mise en forme des données, ainsi que l'entrainement et la validation du CNN sont réalisé avec [CNN.ipynb](CNN.ipynb).
+Une réseau de neurones convolutif (CNN) est utilisé pour classifier les images selon les 3 labels définis. La mise en forme des données, ainsi que l'entrainement et la validation du CNN sont réalisé avec [CNN.ipynb](https://nbviewer.jupyter.org/github/thmegy/SasVelo/blob/main/CNN.ipynb).
 
 
 ## Analyse statistique
 
 Le CNN entrainé est utilisé pour prédire le label de toutes les données. Le taux d'infraction est ensuite mesuré avec l'incertitude (statistique) correspondante en construisant une fonction de vraisemblance prenant en compte la matrice de confusion du CNN, et en maximisant cette fonction.
-Cette analyse est développée dans [analyse.ipynb](analyse.ipynb).
+Cette analyse est développée dans [analyse.ipynb](https://nbviewer.jupyter.org/github/thmegy/SasVelo/blob/main/analyse.ipynb).
 
 ![](infraction_day.png?raw=true)
