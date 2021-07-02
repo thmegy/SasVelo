@@ -27,3 +27,5 @@ Une réseau de neurones convolutif (CNN) est utilisé pour classifier les images
 
 Le CNN entrainé est utilisé pour prédire le label de toutes les données. Le taux d'infraction est ensuite mesuré avec l'incertitude (statistique) correspondante en construisant une fonction de vraisemblance prenant en compte la matrice de confusion du CNN, et en maximisant cette fonction.
 Cette analyse est développée dans [analyse.ipynb](analyse.ipynb).
+
+![](infraction_day.png?raw=true)
