@@ -9,7 +9,7 @@ Un sas cyclable, sas vélo ou zone avancée pour cyclistes est un espace réserv
 
 ## Jeu de données
 
-Le jeu de données est constitué de photos d'un carrefour, prise à chaque cycle de feu, avant que le feu ne passe au vert. Elle ont été enregistrées grâce à un raspberry pi et sont disponibles [https://drive.google.com/file/d/1-yFv0FQlNqnNtTcP_STJXKYqNGWPOW65/view?usp=sharing](ici).
+Le jeu de données est constitué de photos d'un carrefour, prise à chaque cycle de feu, avant que le feu ne passe au vert. Elle ont été enregistrées grâce à un raspberry pi et sont disponibles [ici](https://drive.google.com/file/d/1-yFv0FQlNqnNtTcP_STJXKYqNGWPOW65/view?usp=sharing).
 Les données peuvent être étiquetées à la main grâce au script [labelData.py](labelData.py). Les labels suivants sont utilisés:
 ```
 0 : pas de voiture arrétée au feu
